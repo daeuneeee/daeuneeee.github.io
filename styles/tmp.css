@@ -1,0 +1,28 @@
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+
+.animation-move {
+  animation: move 4s;
+}
+/* @keyframes rule */
+@keyframes move {
+  from {
+    left: 0;
+    top: 0;
+  }
+
+  to {
+    top: 350px;
+    left: 350px;
+  }
+}

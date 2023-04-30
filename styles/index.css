@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: SCDream, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@font-face {
+  font-family: "Roboto slab";
+  src: url("/font/RobotoSlab.ttf");
+}
+
+@font-face {
+  font-family: "SCDream";
+  src: url("/font/SCDream.otf");
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.aside {
+  width: 28rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #eb9d4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.img-box {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon2 {
+  width: 2rem;
+  height: 1.9rem;
+  padding-top: 0.2rem;
+}
+
+.menu {
+  color: #111;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: Roboto slab;
+}
+
+.menu:hover {
+  font-weight: 600;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+#frameBtn {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.list-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5rem 10rem 5rem 36rem;
+}
+
+.sub-title {
+  color: #e78111;
+  font-size: 2rem;
+  font-family: Roboto slab;
+}
+
+.contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+#resumeBtn {
+  text-decoration: underline;
+}
+/* .animation-move {
+  animation: move 4s;
+}
+
+@keyframes move {
+  from {
+    left: 0;
+    top: 0;
+  }
+
+  to {
+    top: 350px;
+    left: 350px;
+  }
+} */
+
+.mini-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.mini-title {
+  min-width: 10rem;
+  font-size: 1.3rem;
+}
+
+.mini-contents-box {
+  width: 100%;
+  word-break: keep-all;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sub-title-box {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 0.5rem;
+}
+
+.sub-title-box > a {
+  color: #111;
+  text-decoration: none;
+}
+
+.underline {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.notice {
+  color: #ccc;
+  font-size: 0.8rem;
+}

@@ -1,1 +1,44 @@
-hi!
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title">Resume</title>
+    <link href="./styles/index.css" rel="stylesheet" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside class="aside">
+        <div class="item-box">
+          <img src="./images/profile.jpeg" class="img-box" />
+          <p class="name">이다은</p>
+          <span class="menu" id="resumeBtn" onclick="onClickResume()"
+            >Resume</span
+          >
+          <span class="menu" id="portfolioBtn" onclick="onClickPortfolio()"
+            >Portfolio</span
+          >
+          <nav class="icon-box">
+            <a href="mailto:dxexx2@gmail.com"
+              ><img src="./images/mail.png" alt="mail-img" class="icon"
+            /></a>
+            <a href="https://github.com/daeuneeee"
+              ><img src="./images/github.png" alt="github-img" class="icon"
+            /></a>
+            <a href="https://velog.io/@unaepaal"
+              ><img src="./images/blog.png" alt="blog-img" class="icon2"
+            /></a>
+            <a href="tel:010-5051-5844"
+              ><img src="/images/phone.png" alt="phone-img" class="icon"
+            /></a>
+          </nav>
+        </div>
+      </aside>
+      <main class="main">
+        <iframe id="frameBtn" src="./resume.html"></iframe>
+      </main>
+    </div>
+  </body>
+</html>
