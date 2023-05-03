@@ -5,6 +5,9 @@
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
 @font-face {
   font-family: "Roboto slab";
   src: url("/font/RobotoSlab.ttf");
@@ -96,7 +99,8 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 5rem 10rem 5rem 36rem;
+  padding: 5rem 15rem 5rem 36rem;
+  animation: move 4s;
 }
 
 .sub-title {
@@ -116,11 +120,12 @@
 #resumeBtn {
   text-decoration: underline;
 }
+
 /* .animation-move {
   animation: move 4s;
-}
+} */
 
-@keyframes move {
+/* @keyframes move {
   from {
     left: 0;
     top: 0;
@@ -171,4 +176,18 @@
 .notice {
   color: #ccc;
   font-size: 0.8rem;
+}
+
+.mini-contents {
+  line-height: 1.7;
+}
+
+.objective-title {
+  background-color: rgba(235, 157, 74, 0.3);
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+a.notice {
+  width: 8rem;
 }
