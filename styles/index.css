@@ -21,6 +21,7 @@ a {
 .wrapper {
   display: flex;
   flex-direction: row;
+  overflow-y: hidden;
 }
 
 .aside {
@@ -174,7 +175,7 @@ a {
 }
 
 .notice {
-  color: #ccc;
+  color: #aaa;
   font-size: 0.8rem;
 }
 
